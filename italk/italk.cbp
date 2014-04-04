@@ -13,7 +13,16 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="C:/wxwidgets3/include" />
+					<Add directory="C:/wxwidgets3/include/msvc" />
 				</Compiler>
+				<Linker>
+					<Add directory="C:/wxwidgets3/lib" />
+					<Add directory="C:/wxwidgets3/lib/gcc_lib" />
+					<Add directory="C:/wxwidgets3/lib/gcc_dll" />
+					<Add directory="C:/wxwidgets3/lib/gcc_dll/mswud" />
+					<Add directory="C:/wxwidgets3/lib/gcc_lib/mswud" />
+				</Linker>
 			</Target>
 			<Target title="Release">
 				<Option output="bin/Release/italk" prefix_auto="1" extension_auto="1" />
@@ -30,7 +39,12 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add directory="C:/wxwidgets3/include" />
 		</Compiler>
+		<Linker>
+			<Add directory="C:/wxwidgets3/lib" />
+			<Add directory="C:/wxwidgets3/lib/gcc_lib" />
+		</Linker>
 		<Unit filename="italk.cpp" />
 		<Extensions>
 			<code_completion />
