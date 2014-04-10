@@ -8,25 +8,16 @@
                  components to perform their tasks.
 
 **/
-
+#include <gtkmm/main.h>
 #include <italk.h>
-#include <sound.h>
+#ifdef ITALK_DBG
+#include <iostream>
+using namespace std;
+#endif // ITALK_DBG
 
-ItalkMainWnd::ItalkMainWnd()
+int main(int argc, char *argv[])
 {
-    set_title("Italk");
-    set_size_request(500,600);
-    set_icon(Gdk::Pixbuf::create_from_file("res/ico.bmp"));
-    set_tooltip_text("Select 'Update' from the 'Chat' menu to get list of online friends.");
-
-    add(vlist);
-    vlist.add(hlist1);
-    vlist.add(hlist2);
-
+    Gtk::Main kit(argc, argv);
+    ItalkMainWnd italk;
+    Gtk::Main::run(italk);
 }
-
-ItalkMainWnd::~ItalkMainWnd()
-{
-
-}
-

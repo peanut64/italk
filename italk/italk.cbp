@@ -38,10 +38,18 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="auth.cpp" />
 		<Unit filename="encr.cpp" />
+		<Unit filename="include/auth.h" />
 		<Unit filename="include/encr.h" />
+		<Unit filename="include/italk.h" />
+		<Unit filename="include/misc.h" />
+		<Unit filename="include/readconf.h" />
 		<Unit filename="include/sound.h" />
 		<Unit filename="italk.cpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="misc.cpp" />
+		<Unit filename="readconf.cpp" />
 		<Unit filename="sound.cpp" />
 		<Extensions>
 			<code_completion />

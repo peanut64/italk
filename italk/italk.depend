@@ -1,6 +1,6 @@
 # depslib dependency file v1.0
-1397005742 source:c:\dev\italk\italk\italk\italk.cpp
-	<gtkmm.h>
+1397092496 source:c:\dev\italk\italk\italk\italk.cpp
+	<italk.h>
 	<sound.h>
 
 1289342408 c:\gtkmm\include\gtkmm-2.4\gtkmm.h
@@ -4779,7 +4779,34 @@
 	<glibmm.h>
 	<gtkmm/bin.h>
 
-1397005649 c:\dev\italk\italk\italk\include\sound.h
+1397052110 c:\dev\italk\italk\italk\include\sound.h
 
 1397005617 source:c:\dev\italk\italk\italk\sound.cpp
+
+1397005916 source:c:\dev\italk\italk\italk\encr.cpp
+
+1397050722 source:c:\dev\italk\italk\italk\auth.cpp
+
+1397050498 source:c:\dev\italk\italk\italk\misc.cpp
+	<vector>
+	<string>
+	<readconf.h>
+
+1397052085 c:\dev\italk\italk\italk\include\readconf.h
+
+1397051430 source:c:\dev\italk\italk\italk\readconf.cpp
+	<vector>
+	<string>
+
+1397138220 c:\dev\italk\italk\italk\include\italk.h
+	<gtkmm/window.h>
+	<gtkmm/box.h>
+	<gtkmm/button.h>
+	<gtkmm/notebook.h>
+	<gdk/gdk.h>
+
+1397138131 source:c:\dev\italk\italk\italk\main.cpp
+	<gtkmm/main.h>
+	<italk.h>
+	<iostream>
 
