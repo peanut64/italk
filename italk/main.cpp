@@ -8,7 +8,6 @@
                  components to perform their tasks.
 
 **/
-#include <gtkmm/main.h>
 #include <italk.h>
 #ifdef ITALK_DBG
 #include <iostream>
@@ -17,7 +16,5 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-    Gtk::Main kit(argc, argv);
-    ItalkMainWnd italk;
-    Gtk::Main::run(italk);
+
 }
