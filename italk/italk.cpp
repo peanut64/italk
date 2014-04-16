@@ -12,21 +12,5 @@
 #include <italk.h>
 #include <sound.h>
 
-ItalkMainWnd::ItalkMainWnd()
-{
-    set_title("Italk");
-    set_size_request(500,600);
-    set_icon(Gdk::Pixbuf::create_from_file("res/ico.bmp"));
-    set_tooltip_text("Select 'Update' from the 'Chat' menu to get list of online friends.");
 
-    add(vlist);
-    vlist.add(hlist1);
-    vlist.add(hlist2);
-
-}
-
-ItalkMainWnd::~ItalkMainWnd()
-{
-
-}
 
