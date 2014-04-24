@@ -50,7 +50,11 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add option="`pkg-config --cflags gtkmm-3.0`" />
 		</Compiler>
+		<Linker>
+			<Add option="`pkg-config --libs gtkmm-3.0`" />
+		</Linker>
 		<Unit filename="ItalkBFishInterface.cpp" />
 		<Unit filename="ItalkReadINIInterface.cpp" />
 		<Unit filename="include/ItalkBFishInterface.h" />
