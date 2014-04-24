@@ -1,4 +1,0 @@
-#ifndef ITALK_INC_READCONF_H
-#define ITALK_INC_READCONF_H
-
-#endif // ITALK_INC_READCONF_H

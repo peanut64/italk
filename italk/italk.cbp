@@ -6,51 +6,55 @@
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
-			<Target title="Debug">
+			<Target title="debugwin">
 				<Option output="bin/Debug/italk" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
-					<Add option="`pkg-config --cflags gtk+-3.0`" />
-					<Add directory="include" />
+					<Add option="-DBUILD_FOR_WIN" />
+					<Add option="-DITALK_DBG" />
 				</Compiler>
-				<Linker>
-					<Add option="`pkg-config --libs gtk+-3.0`" />
-				</Linker>
 			</Target>
-			<Target title="Release">
+			<Target title="releasewin">
 				<Option output="bin/Release/italk" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
-					<Add option="`pkg-config --cflags gtkmm-2.4`" />
+					<Add option="-DBUILD_FOR_WIN" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
-					<Add option="`pkg-config --libs gtkmm-2.4`" />
 				</Linker>
+			</Target>
+			<Target title="debuglin">
+				<Option output="italk" prefix_auto="1" extension_auto="1" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DBUILD_FOR_LINUX" />
+					<Add option="-DITALK_DBG" />
+				</Compiler>
+			</Target>
+			<Target title="releaselin">
+				<Option output="italk" prefix_auto="1" extension_auto="1" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DBUILD_FOR_LINUX" />
+				</Compiler>
 			</Target>
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="auth.cpp" />
-		<Unit filename="encr.cpp" />
-		<Unit filename="include/auth.h" />
-		<Unit filename="include/encr.h" />
-		<Unit filename="include/italk.h" />
-		<Unit filename="include/misc.h" />
-		<Unit filename="include/readconf.h" />
-		<Unit filename="include/sound.h" />
-		<Unit filename="italk.cpp" />
-		<Unit filename="main.cpp" />
-		<Unit filename="misc.cpp" />
-		<Unit filename="readconf.cpp" />
-		<Unit filename="sound.cpp" />
+		<Unit filename="ItalkBFishInterface.cpp" />
+		<Unit filename="ItalkReadINIInterface.cpp" />
+		<Unit filename="include/ItalkBFishInterface.h" />
+		<Unit filename="include/ItalkReadINIInterface.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

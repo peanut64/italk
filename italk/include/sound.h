@@ -1,4 +1,0 @@
-#ifndef ITALK_INC_SOUND_H
-#define ITALK_INC_SOUND_H
-
-#endif // ITALK_INC_SOUND_H

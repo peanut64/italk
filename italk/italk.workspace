@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="italk">
+		<Project filename="italk.cbp" />
+		<Project filename="../italkbfish/italkbfish.cbp" />
+		<Project filename="../italkreadini/italkreadini.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>
