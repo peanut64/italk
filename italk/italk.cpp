@@ -9,10 +9,18 @@
 
 #include "italk.h"
 
-ItalkApplicationWnd::ItalkApplicationWnd(){
+ItalkApplicationWnd::ItalkApplicationWnd()
+{
     Glib::RefPtr<Gdk::Pixbuf> ico = Gdk::Pixbuf::create_from_file("res/ico.bmp");
 
     set_icon(ico);
 
     set_default_size(400,600);
 }
+
+ItalkApplicationWnd::~ItalkApplicationWnd()
+{
+}
+
+
+
