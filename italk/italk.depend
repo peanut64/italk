@@ -1,6 +1,7 @@
 # depslib dependency file v1.0
-1398436218 source:c:\dev\italk\italk\italk\italk.cpp
+1398437663 source:c:\dev\italk\italk\italk\italk.cpp
 	"italk.h"
+	<iostream>
 
 1398436050 source:c:\dev\italk\italk\italk\italkbfishinterface.cpp
 

@@ -8,14 +8,20 @@
 /////////////////////////////////////////////////////////
 
 #include "italk.h"
+#ifdef ITALK_DBG
+#include <iostream>
+using namespace std;
+#endif // ITALK_DBG
 
 ItalkApplicationWnd::ItalkApplicationWnd()
 {
     Glib::RefPtr<Gdk::Pixbuf> ico = Gdk::Pixbuf::create_from_file("res/ico.bmp");
-
+    set_title("Italk - Voice and Instant Messaging.");
+    set_tooltip_text("Select 'Refresh Online List' from the Chat menu to begin.");
     set_icon(ico);
 
     set_default_size(400,600);
+
 }
 
 ItalkApplicationWnd::~ItalkApplicationWnd()
