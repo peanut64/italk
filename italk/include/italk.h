@@ -1,18 +1,26 @@
+// This file is a part of Italk
+//
+// (C) Copyright peanut64 <64peanuts@gmail.com>
+//
+// Licensed under the GNU GPL (any version you choose)
+//
+// This is the main program program window
+/////////////////////////////////////////////////////////
+
+
+
 #ifndef ITALK_ITALK_H
 #define ITALK_ITALK_H
 
 #include <gtkmm/window.h>
-#include <
 
 
 class ItalkApplicationWnd:public Gtk::Window{
 //This class represents the main window.
-Glib::RefPtr<Gdk::Pixbuf> ico = Gdk::Pixbuf::create_from_file("res\/ico.bmp");
 
-set_icon(ico);
-
-set_default_size(400,600);
-
+public:
+    ItalkApplicationWnd();
+    virtual ~ItalkApplicationWnd();
 
 };
 #endif // ITALK_ITALK_H

@@ -1,15 +1,17 @@
 # depslib dependency file v1.0
-1398433263 source:c:\dev\italk\italk\italk\italk.cpp
+1398436218 source:c:\dev\italk\italk\italk\italk.cpp
+	"italk.h"
 
-1398347600 source:c:\dev\italk\italk\italk\italkbfishinterface.cpp
+1398436050 source:c:\dev\italk\italk\italk\italkbfishinterface.cpp
 
-1398348117 source:c:\dev\italk\italk\italk\italkreadiniinterface.cpp
+1398435995 source:c:\dev\italk\italk\italk\italkreadiniinterface.cpp
 
-1398433893 source:c:\dev\italk\italk\italk\main.cpp
+1398436074 source:c:\dev\italk\italk\italk\main.cpp
 	"italk.h"
 	<gtkmm/application.h>
 
-1398433278 c:\dev\italk\italk\italk\include\italk.h
+1398436276 c:\dev\italk\italk\italk\include\italk.h
+	<gtkmm/window.h>
 
 1397442894 c:\gtkmm\include\gtkmm-3.0\gtkmm\application.h
 	<gtkmmconfig.h>
@@ -3720,4 +3722,23 @@
 	<glibmm/ustring.h>
 	<sigc++/sigc++.h>
 	<glibmm/object.h>
+
+1397442896 c:\gtkmm\include\gtkmm-3.0\gtkmm\window.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<vector>
+	<glibmm/object.h>
+	<gtkmm/bin.h>
+	<gtkmm/application.h>
+
+1397442894 c:\gtkmm\include\gtkmm-3.0\gtkmm\bin.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/container.h>
+
+1397442894 c:\gtkmm\include\gtkmm-3.0\gtkmm\container.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<vector>
+	<gtkmm/widget.h>
 
