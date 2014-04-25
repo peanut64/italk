@@ -62,7 +62,9 @@
 		<Unit filename="include/ItalkReadINIInterface.h" />
 		<Unit filename="include/italk.h" />
 		<Unit filename="italk.cpp" />
-		<Unit filename="main.cpp" />
+		<Unit filename="main.cpp">
+			<Option weight="100" />
+		</Unit>
 		<Extensions>
 			<code_completion />
 			<envvars />
