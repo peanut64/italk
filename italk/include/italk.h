@@ -16,6 +16,9 @@
 #include <gtkmm/button.h>
 #include <gtkmm/entry.h>
 #include <gtkmm/box.h>
+#include <gtkmm/textview.h>
+#include <gtkmm/listviewtext.h>
+#include <gtkmm/combobox.h>
 
 
 class ItalkApplicationWnd:public Gtk::Window{
@@ -35,9 +38,25 @@ protected:
 
     //Labels and info widgets
 
+
+
+
     //Interactive widgets
 
+    Gtk::Button st; //send text
+    Gtk::Button sv; //send voice
+    Gtk::Button sf; //send files
 
+    Gtk::TextView tv1;  //This is where the user will enter the text to be sent.
+
+    Gtk::ListViewText lvt;  //This is where the user chat will be displayed.
+
+    Gtk::ListView lv;   //This is where the user's friend list will be displayed.
+
+    Gtk::ComboBox cb;   //This is where the user will select the current active chat.
+
+
+    //Event Handlers
 
 
 };
