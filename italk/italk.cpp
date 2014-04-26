@@ -20,7 +20,9 @@ ItalkApplicationWnd::ItalkApplicationWnd()
     set_tooltip_text("Select 'Refresh Online List' from the Chat menu to begin.");
     set_icon(ico);
 
-    set_default_size(400,600);
+    set_size_request(600,600);
+    set_resizable(false);   //Remove this if it doesn't work aesthetically.
+
 
 }
 
