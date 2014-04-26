@@ -19,6 +19,9 @@
 #include <gtkmm/textview.h>
 #include <gtkmm/listviewtext.h>
 #include <gtkmm/combobox.h>
+#include <gtkmm/menu.h>
+#include <gtkmm/menuitem.h>
+#include <gtkmm/menubutton.h>
 
 
 class ItalkApplicationWnd:public Gtk::Window{
@@ -37,15 +40,18 @@ protected:
 
 
     //Labels and info widgets
-
-
-
+        //Nothing to add here right now... Items are self explanatory. Will probably add one for the active chat selection box.
 
     //Interactive widgets
 
-    Gtk::Button st; //send text
-    Gtk::Button sv; //send voice
-    Gtk::Button sf; //send files
+    Gtk::Menu m;    //The main menubar for Italk.
+    Gtk::MenuButton mb1;    //The Chat menu.
+    Gtk::MenuButton mb2;    //The Options menu.
+    Gtk::MenuButton mb3;    //The Help menu.
+
+    Gtk::Button st; //send text.
+    Gtk::Button sv; //send voice.
+    Gtk::Button sf; //send files.
 
     Gtk::TextView tv1;  //This is where the user will enter the text to be sent.
 
