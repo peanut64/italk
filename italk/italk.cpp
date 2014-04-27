@@ -23,6 +23,8 @@ ItalkApplicationWnd::ItalkApplicationWnd()
     set_size_request(600,600);
     set_resizable(false);   //Remove this if it doesn't work aesthetically.
 
+    //Add the menu buttons to the menu and add the menubar to the window.
+
 
 }
 

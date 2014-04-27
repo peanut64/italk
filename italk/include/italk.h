@@ -22,6 +22,7 @@
 #include <gtkmm/menu.h>
 #include <gtkmm/menuitem.h>
 #include <gtkmm/menubutton.h>
+#include <gtkmm/treeview.h>
 
 
 class ItalkApplicationWnd:public Gtk::Window{
@@ -45,9 +46,18 @@ protected:
     //Interactive widgets
 
     Gtk::Menu m;    //The main menubar for Italk.
-    Gtk::MenuButton mb1;    //The Chat menu.
-    Gtk::MenuButton mb2;    //The Options menu.
-    Gtk::MenuButton mb3;    //The Help menu.
+    Gtk::MenuButton m1;    //The Chat menu.
+    Gtk::MenuButton m2;    //The Options menu.
+    Gtk::MenuButton m3;    //The Help menu.
+
+    Gtk::MenuItem m11;  //Menu items of the Chat menu.
+    Gtk::MenuItem m12;
+    Gtk::MenuItem m13;
+    Gtk::MenuItem m21;  //Menu items of the Options menu.
+    Gtk::MenuItem m22;
+    Gtk::MenuItem m31;  //Menu items of the Help menu.
+    Gtk::MenuItem m32;
+    Gtk::MenuItem m33;
 
     Gtk::Button st; //send text.
     Gtk::Button sv; //send voice.
@@ -55,9 +65,9 @@ protected:
 
     Gtk::TextView tv1;  //This is where the user will enter the text to be sent.
 
-    Gtk::ListViewText lvt;  //This is where the user chat will be displayed.
+    Gtk::ListViewText lvt(guint);  //This is where the user chat will be displayed.
 
-    Gtk::ListView lv;   //This is where the user's friend list will be displayed.
+    Gtk::TreeView lv;   //This is where the user's friend list will be displayed.
 
     Gtk::ComboBox cb;   //This is where the user will select the current active chat.
 

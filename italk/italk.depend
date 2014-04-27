@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1398437663 source:c:\dev\italk\italk\italk\italk.cpp
+1398570682 source:c:\dev\italk\italk\italk\italk.cpp
 	"italk.h"
 	<iostream>
 
@@ -11,10 +11,18 @@
 	"italk.h"
 	<gtkmm/application.h>
 
-1398532327 c:\dev\italk\italk\italk\include\italk.h
+1398572109 c:\dev\italk\italk\italk\include\italk.h
 	<gtkmm/window.h>
 	<gtkmm/button.h>
+	<gtkmm/entry.h>
 	<gtkmm/box.h>
+	<gtkmm/textview.h>
+	<gtkmm/listviewtext.h>
+	<gtkmm/combobox.h>
+	<gtkmm/menu.h>
+	<gtkmm/menuitem.h>
+	<gtkmm/menubutton.h>
+	<gtkmm/treeview.h>
 
 1397442894 c:\gtkmm\include\gtkmm-3.0\gtkmm\application.h
 	<gtkmmconfig.h>
@@ -7505,4 +7513,388 @@
 	<glibmm/ustring.h>
 	<sigc++/sigc++.h>
 	<gtkmm/box.h>
+
+1397442893 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\entry.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/widget.h>
+	<gtkmm/editable.h>
+	<gtkmm/menu.h>
+	<gtkmm/celleditable.h>
+	<gtkmm/entrycompletion.h>
+	<gtkmm/adjustment.h>
+	<gtkmm/image.h>
+	<gtkmm/border.h>
+	<gtkmm/entrybuffer.h>
+
+1397442893 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\editable.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<glibmm/interface.h>
+
+1397442893 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\menu.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/menushell.h>
+	<gtkmm/menuitem.h>
+
+1397442893 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\menushell.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gdk/gdkkeysyms.h>
+	<gtkmm/container.h>
+	<gtkmm/menuitem.h>
+
+1397442893 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\menuitem.h
+	<gtkmmconfig.h>
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/bin.h>
+	<gtkmm/accelkey.h>
+	<gtkmm/accellabel.h>
+	<gtkmm/activatable.h>
+
+1397442893 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\accellabel.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/label.h>
+
+1397442893 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\label.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/misc.h>
+	<pangomm/attrlist.h>
+
+1397442893 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\misc.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/widget.h>
+
+1397442893 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\celleditable.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<glibmm/interface.h>
+
+1397442893 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\entrycompletion.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/widget.h>
+	<gtkmm/celllayout.h>
+	<gtkmm/treemodel.h>
+
+1397442893 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\celllayout.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<vector>
+	<glibmm/interface.h>
+	<gtkmm/cellrenderer.h>
+	<gtkmm/cellrenderer_generation.h>
+	<gtkmm/treemodel.h>
+
+1397442893 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\cellrenderer.h
+	<gtkmmconfig.h>
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/widget.h>
+	<gtkmm/celleditable.h>
+
+1397442894 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\cellrenderer_generation.h
+	<gtkmm/cellrenderertext.h>
+	<gtkmm/cellrendererpixbuf.h>
+	<gtkmm/cellrenderertoggle.h>
+	<gtkmm/cellrendereraccel.h>
+
+1397442893 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\cellrenderertext.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/cellrenderer.h>
+	<pangomm/attrlist.h>
+	<pangomm/fontdescription.h>
+
+1397442893 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\cellrendererpixbuf.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/cellrenderer.h>
+	<giomm/icon.h>
+
+1397442893 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\cellrenderertoggle.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/cellrenderer.h>
+
+1397442893 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\cellrendereraccel.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/cellrenderertext.h>
+	<gtkmm/accelkey.h>
+
+1397442894 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\treemodel.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<vector>
+	<gtk/gtk.h>
+	<glibmm/interface.h>
+	<gtkmm/treeiter.h>
+	<gtkmm/treemodelcolumn.h>
+
+1397442894 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\treeiter.h
+	<gtkmmconfig.h>
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/treemodelcolumn.h>
+	<iterator>
+	<gtk/gtk.h>
+	<cstddef>
+
+1397442894 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\treemodelcolumn.h
+	<gtkmmconfig.h>
+	<glibmm/value.h>
+	<glib-object.h>
+	<vector>
+
+1397442893 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\adjustment.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<glibmm/object.h>
+
+1397442893 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\image.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/misc.h>
+	<gtkmm/iconset.h>
+	<gdkmm/pixbufanimation.h>
+	<giomm/icon.h>
+
+1397442856 c:\mingw\msys\1.0\local\include\gdkmm-3.0\gdkmm\pixbufanimation.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<glibmm/object.h>
+	<gdkmm/pixbuf.h>
+	<gdkmm/pixbufanimationiter.h>
+	<gdk-pixbuf/gdk-pixbuf.h>
+
+1397442856 c:\mingw\msys\1.0\local\include\gdkmm-3.0\gdkmm\pixbufanimationiter.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<glibmm/object.h>
+	<gdkmm/pixbuf.h>
+	<glibmm/timeval.h>
+	<gdk-pixbuf/gdk-pixbuf.h>
+
+1397442893 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\entrybuffer.h
+	<gtkmmconfig.h>
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<glibmm/object.h>
+	<gtkmmconfig.h>
+	<utility>
+
+1397442894 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\textview.h
+	<gtkmmconfig.h>
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/container.h>
+	<gtkmm/scrollable.h>
+	<gtkmm/textbuffer.h>
+	<gtkmm/textmark.h>
+	<gtkmm/menu.h>
+
+1397442894 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\scrollable.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/adjustment.h>
+	<glibmm/interface.h>
+	<gtkmm/enums.h>
+
+1397442894 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\textbuffer.h
+	<gtkmmconfig.h>
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<vector>
+	<gtkmm/texttagtable.h>
+	<gtkmm/textchildanchor.h>
+	<gtkmm/textmark.h>
+	<gtkmm/textiter.h>
+	<gtkmm/clipboard.h>
+	<gdkmm/pixbuf.h>
+	<gtkmmconfig.h>
+	<utility>
+
+1397442894 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\texttagtable.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<glibmm/object.h>
+	<gtkmm/texttag.h>
+
+1397442894 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\texttag.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<glibmm/object.h>
+	<gtkmm/enums.h>
+	<gdkmm/color.h>
+	<gdkmm/rgba.h>
+	<pangomm/fontdescription.h>
+	<pangomm/tabarray.h>
+
+1397442894 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\textchildanchor.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<vector>
+	<gtkmm/widget.h>
+
+1397442894 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\textmark.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<glibmm/object.h>
+
+1397442894 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\textiter.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<vector>
+	<glibmm/exceptionhandler.h>
+	<gdkmm/pixbuf.h>
+	<gtkmm/texttag.h>
+	<gtkmm/textchildanchor.h>
+	<gtkmm/textattributes.h>
+	<gtk/gtk.h>
+
+1397415065 c:\mingw\msys\1.0\local\include\glibmm-2.4\glibmm\exceptionhandler.h
+	<glibmmconfig.h>
+	<sigc++/sigc++.h>
+
+1397442894 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\textattributes.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<glibmm/value.h>
+
+1397442894 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\listviewtext.h
+	<gtkmm/treeview.h>
+	<gtkmm/liststore.h>
+	<vector>
+
+1397442894 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\treeview.h
+	<gtkmmconfig.h>
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<vector>
+	<gtkmm/container.h>
+	<gtkmm/treeviewcolumn.h>
+	<gtkmm/treeselection.h>
+	<gtkmm/treemodelcolumn.h>
+	<gtkmm/cellrenderer.h>
+	<gtkmm/scrollable.h>
+	<gtkmm/targetentry.h>
+	<gtkmm/entry.h>
+	<gtkmm/tooltip.h>
+	<cstdlib>
+
+1397442894 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\treeviewcolumn.h
+	<gtkmmconfig.h>
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/treeiter.h>
+	<gtkmm/button.h>
+	<gdkmm/window.h>
+	<gtkmm/treemodel.h>
+	<gtkmm/celllayout.h>
+	<gtkmm/cellrenderer_generation.h>
+
+1397442894 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\treeselection.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<vector>
+	<gtkmm/enums.h>
+	<gtkmm/treemodel.h>
+	<gtkmm/treeiter.h>
+	<gtkmm/treepath.h>
+
+1397442894 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\treepath.h
+	<gtkmmconfig.h>
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/treemodel.h>
+	<gtkmm/selectiondata.h>
+	<cstddef>
+
+1397442894 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\tooltip.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<glibmm/object.h>
+	<giomm/icon.h>
+	<gdkmm/pixbuf.h>
+	<gtkmm/enums.h>
+	<gtkmm/widget.h>
+
+1397442893 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\liststore.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<vector>
+	<gtkmm/treeiter.h>
+	<gtkmm/treemodel.h>
+	<gtkmm/treesortable.h>
+	<gtkmm/treedragdest.h>
+	<gtkmm/treedragsource.h>
+	<gtkmm/buildable.h>
+	<gtkmm/treepath.h>
+
+1397442894 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\treesortable.h
+	<gtkmmconfig.h>
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<glibmm/interface.h>
+	<gtkmm/enums.h>
+	<gtkmm/treemodelcolumn.h>
+	<gtkmm/treemodel.h>
+	<gtkmm/treeiter.h>
+
+1397442894 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\treedragdest.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<glibmm/interface.h>
+	<gtkmm/treemodel.h>
+	<gtkmm/selectiondata.h>
+
+1397442894 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\treedragsource.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<glibmm/interface.h>
+	<gtkmm/treemodel.h>
+	<gtkmm/selectiondata.h>
+
+1397442893 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\combobox.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/bin.h>
+	<gtkmm/celllayout.h>
+	<gtkmm/celleditable.h>
+	<gtkmm/treemodel.h>
+	<gtkmm/cellarea.h>
+	<gtkmm/cellrenderer.h>
+	<gtkmm/treeview.h>
+	<gtkmm/enums.h>
+
+1397442893 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\cellarea.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/buildable.h>
+	<gtkmm/cellareacontext.h>
+	<gtkmm/celllayout.h>
+	<glibmm/object.h>
+
+1397442893 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\cellareacontext.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<glibmm/object.h>
+
+1397442893 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\menubutton.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/togglebutton.h>
+	<gtkmm/menu.h>
+	<giomm/menumodel.h>
+
+1397442894 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\togglebutton.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/button.h>
 
