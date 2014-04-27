@@ -41,7 +41,8 @@ protected:
 
 
     //Labels and info widgets
-        //Nothing to add here right now... Items are self explanatory. Will probably add one for the active chat selection box.
+        //Nothing to add here right now... Items are self explanatory.
+
 
     //Interactive widgets
 
@@ -69,10 +70,15 @@ protected:
 
     Gtk::TreeView lv;   //This is where the user's friend list will be displayed.
 
-    Gtk::ComboBox cb;   //This is where the user will select the current active chat.
+    Gtk::ComboBox cb;   //This is where the user will select the current active chat. TO BE IMPLEMENTED.
 
 
     //Event Handlers
+    virtual void on_st_clicked();
+    virtual void on_sv_clicked();
+    virtual void on_sf_clicked();
+
+
 
 
 };

@@ -32,5 +32,18 @@ ItalkApplicationWnd::~ItalkApplicationWnd()
 {
 }
 
+//Define the signal handlers
+void ItalkApplicationWnd::on_sf_clicked()
+{
+}
+
+void ItalkApplicationWnd::on_st_clicked()
+{
+}
+
+void ItalkApplicationWnd::on_sv_clicked()
+{
+}
+
 
 

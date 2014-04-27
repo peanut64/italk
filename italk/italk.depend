@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1398570682 source:c:\dev\italk\italk\italk\italk.cpp
+1398587615 source:c:\dev\italk\italk\italk\italk.cpp
 	"italk.h"
 	<iostream>
 
@@ -11,7 +11,7 @@
 	"italk.h"
 	<gtkmm/application.h>
 
-1398572109 c:\dev\italk\italk\italk\include\italk.h
+1398587338 c:\dev\italk\italk\italk\include\italk.h
 	<gtkmm/window.h>
 	<gtkmm/button.h>
 	<gtkmm/entry.h>
@@ -7897,4 +7897,28 @@
 	<glibmm/ustring.h>
 	<sigc++/sigc++.h>
 	<gtkmm/button.h>
+
+1398582792 source:c:\dev\italk\italk\italk\messagebuilderreader.cpp
+
+1397754470 source:c:\dev\italk\italk\italk\tinyxml2.cpp
+	"tinyxml2.h"
+	<new>
+	<stddef.h>
+	<cstddef>
+
+1397754470 c:\dev\italk\italk\italk\include\tinyxml2.h
+	<ctype.h>
+	<limits.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdarg.h>
+	<cctype>
+	<climits>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<cstdarg>
+	<android/log.h>
+	<assert.h>
 

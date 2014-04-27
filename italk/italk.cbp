@@ -61,10 +61,14 @@
 		<Unit filename="include/ItalkBFishInterface.h" />
 		<Unit filename="include/ItalkReadINIInterface.h" />
 		<Unit filename="include/italk.h" />
+		<Unit filename="include/messageBuilderReader.h" />
+		<Unit filename="include/tinyxml2.h" />
 		<Unit filename="italk.cpp" />
 		<Unit filename="main.cpp">
 			<Option weight="100" />
 		</Unit>
+		<Unit filename="messageBuilderReader.cpp" />
+		<Unit filename="tinyxml2.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
