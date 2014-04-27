@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1398587615 source:c:\dev\italk\italk\italk\italk.cpp
+1398620034 source:c:\dev\italk\italk\italk\italk.cpp
 	"italk.h"
 	<iostream>
 
@@ -11,7 +11,7 @@
 	"italk.h"
 	<gtkmm/application.h>
 
-1398587338 c:\dev\italk\italk\italk\include\italk.h
+1398620685 c:\dev\italk\italk\italk\include\italk.h
 	<gtkmm/window.h>
 	<gtkmm/button.h>
 	<gtkmm/entry.h>
@@ -22,6 +22,7 @@
 	<gtkmm/menu.h>
 	<gtkmm/menuitem.h>
 	<gtkmm/menubutton.h>
+	<gtkmm/menubar.h>
 	<gtkmm/treeview.h>
 
 1397442894 c:\gtkmm\include\gtkmm-3.0\gtkmm\application.h
@@ -7921,4 +7922,10 @@
 	<cstdarg>
 	<android/log.h>
 	<assert.h>
+
+1397442893 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\menubar.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/menushell.h>
+	<gtkmm/menuitem.h>
 

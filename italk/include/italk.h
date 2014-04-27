@@ -22,6 +22,7 @@
 #include <gtkmm/menu.h>
 #include <gtkmm/menuitem.h>
 #include <gtkmm/menubutton.h>
+#include <gtkmm/menubar.h>
 #include <gtkmm/treeview.h>
 
 
@@ -46,19 +47,19 @@ protected:
 
     //Interactive widgets
 
-    Gtk::Menu m;    //The main menubar for Italk.
-    Gtk::MenuButton m1;    //The Chat menu.
-    Gtk::MenuButton m2;    //The Options menu.
-    Gtk::MenuButton m3;    //The Help menu.
+    Gtk::MenuBar m;    //The main menubar for Italk.
+    Gtk::MenuItem m1;    //The Chat menu.
+    Gtk::MenuItem m2;    //The Options menu.
+    Gtk::MenuItem m3;    //The Help menu.
 
-    Gtk::MenuItem m11;  //Menu items of the Chat menu.
-    Gtk::MenuItem m12;
-    Gtk::MenuItem m13;
-    Gtk::MenuItem m21;  //Menu items of the Options menu.
-    Gtk::MenuItem m22;
-    Gtk::MenuItem m31;  //Menu items of the Help menu.
-    Gtk::MenuItem m32;
-    Gtk::MenuItem m33;
+    Gtk::Menu m11;  //Menu items of the Chat menu.
+    Gtk::Menu m12;
+    Gtk::Menu m13;
+    Gtk::Menu m21;  //Menu items of the Options menu.
+    Gtk::Menu m22;
+    Gtk::Menu m31;  //Menu items of the Help menu.
+    Gtk::Menu m32;
+    Gtk::Menu m33;
 
     Gtk::Button st; //send text.
     Gtk::Button sv; //send voice.
@@ -66,7 +67,7 @@ protected:
 
     Gtk::TextView tv1;  //This is where the user will enter the text to be sent.
 
-    Gtk::ListViewText lvt(guint);  //This is where the user chat will be displayed.
+    Gtk::TreeView lvt;  //This is where the user chat will be displayed.
 
     Gtk::TreeView lv;   //This is where the user's friend list will be displayed.
 
