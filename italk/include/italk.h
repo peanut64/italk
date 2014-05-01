@@ -15,15 +15,22 @@
 #include <gtkmm/window.h>
 #include <gtkmm/button.h>
 #include <gtkmm/entry.h>
-#include <gtkmm/box.h>
 #include <gtkmm/textview.h>
 #include <gtkmm/listviewtext.h>
 #include <gtkmm/combobox.h>
 #include <gtkmm/menu.h>
+#include <gtkmm/box.h>
 #include <gtkmm/menuitem.h>
 #include <gtkmm/menubutton.h>
 #include <gtkmm/menubar.h>
 #include <gtkmm/treeview.h>
+#include <gtkmm/actiongroup.h>
+#include <gtkmm/action.h>
+#include <gtkmm/uimanager.h>
+#include <gtkmm/fixed.h>
+#include <gtkmm/menubar.h>
+
+
 
 
 class ItalkApplicationWnd:public Gtk::Window{
@@ -34,32 +41,24 @@ public:
     virtual ~ItalkApplicationWnd();
 
 protected:
-    //Container widgets
-    Gtk::HBox hb1;  //First horizontal box. Contains Chat area(a notebook) and the online clients list.
-    Gtk::HBox hb2;  //Second horizontal box. Contains the text chat entry, the "send message" button,
-                    //the voice button and the file button.
-    Gtk::VBox vb1;  //Main vertical placement box, contains 2 horizontal-boxes.
-
 
     //Labels and info widgets
         //Nothing to add here right now... Items are self explanatory.
 
+    //Layout
+    Gtk::Fixed flayout;
+
+    //add the menu
+    Gtk::VBox menubarbox;
+    Glib::RefPtr<Gtk::ActionGroup> ag;
+    Glib::RefPtr<Gtk::UIManager> uim;
+    Gtk::Widget* menubar;
+    Glib::ustring ui;
+
+    Gtk::MenuItem refresh;
+
 
     //Interactive widgets
-
-    Gtk::MenuBar m;    //The main menubar for Italk.
-    Gtk::MenuItem m1;    //The Chat menu.
-    Gtk::MenuItem m2;    //The Options menu.
-    Gtk::MenuItem m3;    //The Help menu.
-
-    Gtk::Menu m11;  //Menu items of the Chat menu.
-    Gtk::Menu m12;
-    Gtk::Menu m13;
-    Gtk::Menu m21;  //Menu items of the Options menu.
-    Gtk::Menu m22;
-    Gtk::Menu m31;  //Menu items of the Help menu.
-    Gtk::Menu m32;
-    Gtk::Menu m33;
 
     Gtk::Button st; //send text.
     Gtk::Button sv; //send voice.
@@ -78,6 +77,15 @@ protected:
     virtual void on_st_clicked();
     virtual void on_sv_clicked();
     virtual void on_sf_clicked();
+    virtual void on_chat_menu_refresh();
+    virtual void on_chat_menu_ipaddress();
+    virtual void on_chat_menu_friends();
+    virtual void on_options_menu_settings();
+    virtual void on_options_menu_reset();
+    virtual void on_help_menu_help();
+    virtual void on_help_menu_about();
+    virtual void on_help_menu_update();
+
 
 
 

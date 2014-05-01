@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1398620034 source:c:\dev\italk\italk\italk\italk.cpp
+1398952572 source:c:\dev\italk\italk\italk\italk.cpp
 	"italk.h"
 	<iostream>
 
@@ -7,23 +7,28 @@
 
 1398525300 source:c:\dev\italk\italk\italk\italkreadiniinterface.cpp
 
-1398525300 source:c:\dev\italk\italk\italk\main.cpp
+1398928484 source:c:\dev\italk\italk\italk\main.cpp
 	"italk.h"
 	<gtkmm/application.h>
 
-1398620685 c:\dev\italk\italk\italk\include\italk.h
+1398952542 c:\dev\italk\italk\italk\include\italk.h
 	<gtkmm/window.h>
 	<gtkmm/button.h>
 	<gtkmm/entry.h>
-	<gtkmm/box.h>
 	<gtkmm/textview.h>
 	<gtkmm/listviewtext.h>
 	<gtkmm/combobox.h>
 	<gtkmm/menu.h>
+	<gtkmm/box.h>
 	<gtkmm/menuitem.h>
 	<gtkmm/menubutton.h>
 	<gtkmm/menubar.h>
 	<gtkmm/treeview.h>
+	<gtkmm/actiongroup.h>
+	<gtkmm/action.h>
+	<gtkmm/uimanager.h>
+	<gtkmm/fixed.h>
+	<gtkmm/menubar.h>
 
 1397442894 c:\gtkmm\include\gtkmm-3.0\gtkmm\application.h
 	<gtkmmconfig.h>
@@ -7928,4 +7933,17 @@
 	<sigc++/sigc++.h>
 	<gtkmm/menushell.h>
 	<gtkmm/menuitem.h>
+
+1397442894 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\uimanager.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<vector>
+	<gtkmm/widget.h>
+	<gtkmm/action.h>
+	<gtkmm/actiongroup.h>
+
+1397442893 c:\mingw\msys\1.0\local\include\gtkmm-3.0\gtkmm\fixed.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/container.h>
 
