@@ -2,6 +2,8 @@
 //
 // (C) Copyright the author - peanut64 <64peanuts@gmail.com>
 //
+// 4f62c1994e8198c0af68a40876dd196158d2bdf6
+//
 // Licensed under the GNU GPL (any version you choose)
 //
 // This is the main program entry point.

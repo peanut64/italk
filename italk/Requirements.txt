@@ -1,1 +1,5 @@
-Italk requires Gtk+ and Gtkmm 3.x
+Italk requires 
+-Gtk+ and Gtkmm 3.x
+-TinyXML 2.x
+-Boost 1.55
+-Boost.Asio 1.10 
